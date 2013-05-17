@@ -241,11 +241,14 @@ margin-left:20px;
 body{ 
   font-size: 87.5%;
   color: #252e35; 
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
   line-height: 1.5em;
   background: #f6f6f6;  
 }
 
+@font-face{
+  font-family: BentonSans;
+  font-weight:bold;
+}
 
 h1{
     font-size: 2.714285714em; /* 24 / 14 */
