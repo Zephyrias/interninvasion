@@ -1,10 +1,26 @@
 {
         "id": "smartinez", 
-        "name": "Sebastian Martinez", 
-         "imageUrl": "./photos/smartinez0.png",
- 	"height": 62,
+        "name": "Sebastian Martinez",
+        "profileImageUrl": "http://2.bp.blogspot.com/-IXaXS14NBjk/T1APkfjarPI/AAAAAAAALpI/uk_8_-IHrOg/s1600/lego_logo.png",
+        "linkedIn": "http://www.linkedin.com",
+        "age": 22,
         "school": "University of Michigan",
         "oneLiner": "Hippos Fly West",
+        "skills":
+        [
+            {
+                "string": "C++",
+                "percent": 90
+            },
+            {
+               "string": "SQL",
+                "percent": 80
+            },
+            {
+                "string": "LEGO Building",
+                "percent": 100
+            }
+        ],
         "additional":
         [
             {

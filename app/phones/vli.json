@@ -1,12 +1,26 @@
 {
  	    "id": "vli",
-	    "name": "Vicki Li", 
-        "imageUrl": "./photos/vli0.png",
-  	"linkedIn": "http://www.linkedin.com",
+	    "name": "Vicki Li",
+        "profileImageUrl": "http://2.bp.blogspot.com/-IXaXS14NBjk/T1APkfjarPI/AAAAAAAALpI/uk_8_-IHrOg/s1600/lego_logo.png", 
+  	    "linkedIn": "http://www.linkedin.com",
         "age": 20, 
-	"height": 52,
         "school": "University of Michigan",
         "oneLiner": "Flying Purple Jelly Hippo Waffle",
+        "skills":
+        [
+            {
+                "string": "C++",
+                "percent": 90
+            },
+            {
+               "string": "?",
+                "percent": 100
+            },
+            {
+                "string": "LoL",
+                "percent": 10
+            }
+        ],
         "additional":
         [
             {

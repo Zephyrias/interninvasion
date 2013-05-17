@@ -1,12 +1,26 @@
 {
         "id": "arajagopal", 
-        "name": "Aditi Rajagopal", 
-        "imageUrl": "./photos/arajagopal0.png",
-  	"linkedIn": "http://www.linkedin.com",
-        "age": 21, 
-	"height": 51,
+        "name": "Aditi Rajagopal",
+        "profileImageUrl": "http://2.bp.blogspot.com/-IXaXS14NBjk/T1APkfjarPI/AAAAAAAALpI/uk_8_-IHrOg/s1600/lego_logo.png",
+  	    "linkedIn": "http://www.linkedin.com",
+        "age": 21,
         "school": "University of Michigan",
         "oneLiner": "I can FLY!",
+        "skills":
+        [
+            {
+                "string": "C++",
+                "percent": 90
+            },
+            {
+               "string": "CSS",
+                "percent": 90
+            },
+            {
+                "string": "Breakfast?!",
+                "percent": 100
+            }
+        ],
         "additional":
         [
             {

@@ -1,12 +1,26 @@
 {
         "id": "chejazi", 
-        "name": "Cameron Hejazi", 
-        "imageUrl": "./photos/chejazi0.png",
-  	"linkedIn": "http://www.linkedin.com",
-        "age": 21, 
-	"height": 63,
+        "name": "Cameron Hejazi",
+        "profileImageUrl": "http://2.bp.blogspot.com/-IXaXS14NBjk/T1APkfjarPI/AAAAAAAALpI/uk_8_-IHrOg/s1600/lego_logo.png",
+  	    "linkedIn": "http://www.linkedin.com",
+        "age": 21,
         "school": "University of Michigan",
         "oneLiner": "Chicken Can Fly in Space",
+        "skills":
+        [
+            {
+                "string": "C++",
+                "percent": 90
+            },
+            {
+               "string": "stuff",
+                "percent": 50
+            },
+            {
+                "string": "Bro Life",
+                "percent": 100
+            }
+        ],
         "additional":
         [
             {

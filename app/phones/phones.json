@@ -1,78 +1,34 @@
 [
-    { 
+    {
  	    "id": "vli",
-	    "name": "Vicki Li", 
+	    "name": "Vicki Li",
         "age": 20, 
-	"height": 52,
+	    "height": 52,
         "school": "University of Michigan",
-        "oneLiner": "Flying Purple Jelly Hippo Waffle",
-        "additional":
-        [
-            {
-                "category": "skills",
-                "text": "C++\nSQL"
-            },
-            {
-                "category": "hobbies",
-                "text": "I enjoy doing cosplay and steampunk stuff\nI also enjoy playing LoL"
-            }
-        ]   
+        "oneLiner": "Flying Purple Jelly Hippo Waffle"
     }, 
     {
         "id": "smartinez", 
         "name": "Sebastian Martinez", 
         "age": 22, 
-	"height": 62,
+	    "height": 62,
         "school": "University of Michigan",
-        "oneLiner": "Hippos Fly West",
-        "additional":
-        [
-            {
-                "category": "skills",
-                "text": "C++\nSQL"
-            },
-            {
-                "category": "hobbies",
-                "text": "I enjoy Legos\nI also enjoy playing LoL"
-            }
-        ]
+        "oneLiner": "Hippos Fly West"
     }, 
     {
         "id": "chejazi", 
-        "name": "Cameron Hejazi", 
+        "name": "Cameron Hejazi",
         "age": 21, 
-	"height": 63,
+	    "height": 63,
         "school": "University of Michigan",
-        "oneLiner": "Chicken Can Fly in Space",
-        "additional":
-        [
-            {
-                "category": "skills",
-                "text": "C++\nstuff"
-            },
-            {
-                "category": "hobbies",
-                "text": "Music is my thing\nI love eating pizza"
-            }
-        ]
+        "oneLiner": "Chicken Can Fly in Space"
     }, 
     {
         "id": "arajagopal", 
         "name": "Aditi Rajagopal", 
         "age": 21, 
-	"height": 51,
+	    "height": 51,
         "school": "University of Michigan",
-        "oneLiner": "I can FLY!",
-        "additional":
-        [
-            {
-                "category": "skills",
-                "text": "C++\nCSE"
-            },
-            {
-                "category": "hobbies",
-                "text": "I enjoy singing\nI also enjoy hiking"
-            }
-        ] 
+        "oneLiner": "I can FLY!"
     }
 ]
