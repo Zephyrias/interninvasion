@@ -6,8 +6,7 @@
       </select>
       <input ng-model="query">
 </div>
-  <div id="container" class="cf" style = "height: 100%;">  
-
+<div id="container" class="cf" style = "height: 100%;">  
       <article class="span1">
         <section ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail">
          <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{'./photos/' + phone.id + '0.png'}}"  onmouseover="this.src='{{'./photos/' + phone.id + '1.png'}}'" onmouseout="this.src='{{'./photos/' + phone.id + '0.png'}}'" style = "border-radius: 50px; -moz-border-radius: 50px; -webkit-border-radius: 50px;"></a>

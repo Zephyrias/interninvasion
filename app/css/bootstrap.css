@@ -71,7 +71,14 @@ img {
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
+}
 
+#quotations img{
+  position: fixed;
+  background-image:url(/photos/Quotes.jpg);
+  top:0px;
+  right:0px;
+  width: 10%;
 }
 
 button,
