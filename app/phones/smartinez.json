@@ -1,8 +1,7 @@
 {
-       "id": "smartinez", 
+        "id": "smartinez", 
         "name": "Sebastian Martinez", 
-        "imageUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/260px-YellowLabradorLooking_new.jpg", 
-        "age": 22, 
+         "imageUrl": "./photos/smartinez0.png",
  	"height": 62,
         "school": "University of Michigan",
         "oneLiner": "Hippos Fly West",

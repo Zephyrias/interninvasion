@@ -104,9 +104,6 @@ ul{
 
 article{
 margin-left:20px;
-position: relative;
-left: 550px;
-width: 500px;
 }
 .thumbnail {
     height:50px;
@@ -393,11 +390,6 @@ section{
   margin-left: 20px;
   padding:10px;
 }
-
-section:hover{
-  background-color: #FFF000;
-}
-
 
 body {
   padding-top: 20px;

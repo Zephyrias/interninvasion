@@ -8,16 +8,9 @@
 </div>
   <div id="container" class="cf">  
 
-
-
-
-
-
-
-
       <article class="span1">
         <section ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail">
-          <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"  onmouseover="this.src='https://mail-attachment.googleusercontent.com/attachment/u/1/?ui=2&ik=7a0a282ba2&view=att&th=13eb3b3fa0ecd02a&attid=0.1&disp=inline&realattid=f_hgtosckp0&safe=1&zw&saduie=AG9B_P_y_LmkbB1yXxun3JSD9A8r&sadet=1368819246723&sads=ohgUKEnKb_Q4d4gYF16Hmf8Iuvo'" onmouseout="this.src='{{phone.imageUrl}}'" style = "border-radius: 50px; -moz-border-radius: 50px; -webkit-border-radius: 50px;"></a>
+         <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{'./photos/' + phone.id + '0.png'}}"  onmouseover="this.src='{{'./photos/' + phone.id + '1.png'}}'" onmouseout="this.src='{{'./photos/' + phone.id + '0.png'}}'" style = "border-radius: 50px; -moz-border-radius: 50px; -webkit-border-radius: 50px;"></a>
           <a href="#/phones/{{phone.id}}">
             <font size = "6">
               {{phone.oneLiner}}
@@ -26,7 +19,7 @@
           <p>
             <font size = "4")>
             <p>
-              <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">{{phone.name}}</a>
+              {{phone.name}}
               <br> {{phone.age}}
             </p>
 

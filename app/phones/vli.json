@@ -1,7 +1,7 @@
 {
- 	"id": "vli",
-	"name": "Vicki Li", 
-        "imageUrl": "http://www.petfinder.com/wp-content/uploads/2012/11/101418789-cat-panleukopenia-fact-sheet-632x475.jpg",
+ 	    "id": "vli",
+	    "name": "Vicki Li", 
+        "imageUrl": "./photos/vli0.png",
   	"linkedIn": "http://www.linkedin.com",
         "age": 20, 
 	"height": 52,
