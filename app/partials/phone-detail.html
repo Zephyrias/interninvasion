@@ -49,7 +49,7 @@
 
   	<article class="span1" style = "margin-left: 20px; position: relative; left: 550px; top: -500px; width: 500px;">
 		<section>
-          <h2>Vicki Li</h2>
+          <h2>{{phone.name}}</h2>
           <h3>Level 20 Gamer</h3>
           <h3>University of Michigan, Computer Science</h3>
           <h3>Origin: Ann Arbor, MI</h3>
@@ -76,6 +76,24 @@
 			</article>
       <div id = "about" style = "position: absolute; top: 630px;">
         <h1>About Me</h1>
+          <p style = "color:#000000;">
+            <ul style="list-style: none;">
+              <li ng-repeat="additional in phone.additional">
+                <h2>{{additional.category}}</h2>
+                Herro I am here
+                  <img ng-src={{additional.entryImage}} width="200" height="200">
+                  <p style = "color:#000000;">
+                    <ul>
+                      <li ng-repeat="entries in additional.entries">
+                        <p style = "color:#000000;">
+                          {{entries.text}}
+                        </p>
+                      </li>
+                    </ul>
+                  </p>
+              </li>
+            </ul>
+          </p>
       </div>
 
   </div> <!--! end of #container -->
