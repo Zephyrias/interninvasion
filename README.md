@@ -1,9 +1,9 @@
 interninvasion
 ==============
 
-Say Media intern project 1
+Say Media intern project 1\n
 
-Aditi Rajagopal
-Cameron Hejazi
-Sebastian Martinez
+Aditi Rajagopal\n
+Cameron Hejazi\n
+Sebastian Martinez\n
 Vicki Li
