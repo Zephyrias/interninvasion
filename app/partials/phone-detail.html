@@ -1,0 +1,89 @@
+<div id="container" class="cf">  
+<div id="wrapper" class="wrapper">
+    <h1>My Software Doesn't get Bugs, it just develops random features</h1>
+      <div class="bg" ng-controller="GalleryController" >
+      
+  <!--    Layout the large images horizontally using viewwindow
+          to hide the overflow (all but the current image). -->
+          <div class="mainimageshell">
+              <div class="viewwindow">
+          <!--    fullscroller is referenced from the Controller js
+                  to control scrolling -->
+                  <ul id="fullscroller" class="fullsizelist" ng-style="listposition" >
+              <!--    Iterate through all images and display them end to end -->
+                      <li ng-repeat="image in galleryData">
+                          <img id="fullsize" class="large" ng-src="{{IMAGE_LOCATION+image.image}}" />
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          
+          <!-- Display the description of the current image -->
+
+          
+          <div style="clear:both; height: 10px"></div>
+          
+  <!--    Layout the large images horizontally using viewwindow
+          to hide the overflow (all but the current image). -->
+          <div class="thumbsshell">
+              <div class="thumbswrapper">
+                  <ul>
+              <!--    Iterate through all images and display them end to end as thumbs -->
+                      <li ng-repeat="image in galleryData">
+                          <div class="thumbwrapper">
+                      <!--    Note ng-click here calls the scrollTo function found in the
+                              controller and passes it its index. This is used to scroll 
+                              the large image to the correct image -->
+                              <a ng-href="" ng-click="scrollTo(image,$index)">
+                                  <img class="thumbnail" ng-src="{{IMAGE_LOCATION+image.image}}" />
+                              </a>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          
+          
+      </div>
+
+
+  	<article class="span1">
+				<section>
+          <h2>Vicki Li</h2>
+          <h3>Level 20 Gamer</h3>
+          <h3>University of Michigan, Computer Science</h3>
+          <h3>Origin: Ann Arbor, MI</h3>
+        </section>
+        <hr>
+        <section>
+          <h2>Connect</h2>
+          <a href = "http://www.linkedin.com"><img src = "http://yaleherald.com/wp-content/uploads/2013/03/Linkedin_Shiny_Icon.svg_.png" style = "max-height: 5%"></a>
+        </section>
+        <hr>
+        <section>
+          <h2>Mad Skills</h2>
+            <div class="meter">
+              <span style="width: 35%; padding-left:10px">C++</span>
+            </div><br>
+            <div class="meter">
+              <span style="width: 75%; padding-left:10px">C++</span>
+            </div><br>
+            <div class="meter">
+              <span style="width: 85%; padding-left:10px">C++</span>
+            </div><br>
+            <div class="meter">
+              <span style="width: 5%; padding-left:10px">C++</span>
+            </div>
+
+        </section>
+			</article>
+      <div id = "about" style = "position: absolute; top: 630px;">
+        <h1>About Me</h1>
+      </div>
+
+  </div> <!--! end of #container -->
+</div>
+
+
+
+

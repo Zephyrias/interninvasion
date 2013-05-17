@@ -1,0 +1,82 @@
+[
+    {
+ 	"id": "vli",
+	"name": "Vicki Li", 
+        "imageUrl": "http://www.petfinder.com/wp-content/uploads/2012/11/101418789-cat-panleukopenia-fact-sheet-632x475.jpg",
+        "age": 20, 
+	"height": 52,
+        "school": "University of Michigan",
+        "oneLiner": "Flying Purple Jelly Hippo Waffle",
+        "additional":
+        [
+            {
+                "category": "skills",
+                "text": "C++\nSQL"
+            },
+            {
+                "category": "hobbies",
+                "text": "I enjoy doing cosplay and steampunk stuff\nI also enjoy playing LoL"
+            }
+        ]   
+    }, 
+    {
+       "id": "smartinez", 
+        "name": "Sebastian Martinez", 
+        "imageUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/260px-YellowLabradorLooking_new.jpg", 
+        "age": 22, 
+	"height": 62,
+        "school": "University of Michigan",
+        "oneLiner": "Hippos Fly West",
+        "additional":
+        [
+            {
+                "category": "skills",
+                "text": "C++\nSQL"
+            },
+            {
+                "category": "hobbies",
+                "text": "I enjoy Legos\nI also enjoy playing LoL"
+            }
+        ]
+    }, 
+    {
+        "id": "chejazi", 
+        "name": "Cameron Hejazi", 
+        "imageUrl": "http://www.acuteaday.com/blog/wp-content/uploads/2010/12/baby-hedgehog-cute-201210.jpeg",
+        "age": 21, 
+	"height": 63,
+        "school": "University of Michigan",
+        "oneLiner": "Chicken Can Fly in Space",
+        "additional":
+        [
+            {
+                "category": "skills",
+                "text": "C++\nstuff"
+            },
+            {
+                "category": "hobbies",
+                "text": "Music is my thing\nI love eating pizza"
+            }
+        ]
+    }, 
+    {
+       "id": "arajagopal", 
+        "name": "Aditi Rajagopal", 
+        "imageUrl": "http://www.lafebervet.com/wp-content/uploads/2010/03/Rabbit-Basic-Information-Sheet.jpg",
+        "age": 21, 
+	"height": 51,
+        "school": "University of Michigan",
+        "oneLiner": "I can FLY!",
+        "additional":
+        [
+            {
+                "category": "skills",
+                "text": "C++\nCSE"
+            },
+            {
+                "category": "hobbies",
+                "text": "I enjoy singing\nI also enjoy hiking"
+            }
+        ] 
+    }
+]

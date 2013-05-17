@@ -1,0 +1,135 @@
+<div class="searchnsort">
+      <select ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="age">Age</option>
+        <option value="height">Height</option>
+      </select>
+      <input ng-model="query">
+</div>
+  <div id="container" class="cf">  
+
+
+
+
+
+
+
+
+      <article class="span1">
+        <section ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail">
+          <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"  onmouseover="this.src='https://mail-attachment.googleusercontent.com/attachment/u/1/?ui=2&ik=7a0a282ba2&view=att&th=13eb3b3fa0ecd02a&attid=0.1&disp=inline&realattid=f_hgtosckp0&safe=1&zw&saduie=AG9B_P_y_LmkbB1yXxun3JSD9A8r&sadet=1368819246723&sads=ohgUKEnKb_Q4d4gYF16Hmf8Iuvo'" onmouseout="this.src='{{phone.imageUrl}}'" style = "border-radius: 50px; -moz-border-radius: 50px; -webkit-border-radius: 50px;"></a>
+          <a href="#/phones/{{phone.id}}">
+            <font size = "6">
+              {{phone.oneLiner}}
+            </font>
+          </a>
+          <p>
+            <font size = "4")>
+            <p>
+              <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">{{phone.name}}</a>
+              <br> {{phone.age}}
+            </p>
+
+            <!--Modal content-->
+
+              <div id="light" class="white_content" style ="background-color: white">
+                <div id = "exit" style = "float: right; position: relative; top: -10px; left: 10px;">
+                  <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><img src = "http://gp1.wac.edgecastcdn.net/802892/production_static/images/v3/standard_resources/ui_elements/modal_close_icon.png"></a>
+                </div>
+                <div id="wrapper" class="wrapper">
+                  <div class ="zonezero" style = "text-align: center; padding-bottom: 10px">
+                    <h1>{{phone.oneLiner}}</h1>
+                  </div>
+
+                   <div id="inner-wrapper">
+                    <div class="one-col-clear" style="background: url({{phone.imageUrl}}) no-repeat">
+                    </div>
+                    <div class="two-col-clear">
+                        <div class="imageone" style="background: url(https://profile-b.xx.fbcdn.net/hprofile-prn1/c170.50.621.621/s160x160/933972_10152838793870271_977176904_n.jpg) no-repeat">
+                        </div>
+                        <div class="imageone" style="background: url(https://profile-b.xx.fbcdn.net/hprofile-prn1/c170.50.621.621/s160x160/933972_10152838793870271_977176904_n.jpg) no-repeat">
+                        </div>
+                        <div class="imageone" style="background: url(https://profile-b.xx.fbcdn.net/hprofile-prn1/c170.50.621.621/s160x160/933972_10152838793870271_977176904_n.jpg) no-repeat">
+                        </div>
+                      </div>
+                    
+                    <div class="three-col-clear">     
+                      <div class ="header">
+                          <h3>general information</h3>
+                        </div>
+                            <div class ="zonetwo" style = "background-color: white; padding: 10px; color: #000000;">
+                          <p style ="color:#000000;">
+                            <b>Name: </b> {{phone.name}}
+                          </p>
+                          <p style ="color:#000000;">
+                            <b>Age: </b> {{phone.age}}
+                          </p>
+                          <p style ="color:#000000;">
+                            <b>Alma Mater: </b> {{phone.school}}
+                          </p>
+                          <p style ="color:#000000;">
+                            <b>Office Location: </b> San Francisco
+                          </p>
+                      </div>
+
+                            <div class ="zonethree">
+                                <h2>Connect</h2>
+                        <a href = "{{phone.linkedIn}}"><img src = "http://yaleherald.com/wp-content/uploads/2013/03/Linkedin_Shiny_Icon.svg_.png" style = "max-height: 5%"></a>
+                      </div>
+                    </div>
+                    </div>
+
+                  <div class="zone4">     
+                        <div class ="header">
+                          <h3>About Me</h3>
+                        </div>
+                    <div class ="zonethree" style = "background-color: white; padding: 10px; font-color: #000000;
+                          border-radius: 0px 0px 20px 20px;
+                          -moz-border-radius: 0px 0px 20px 20px;
+                          -webkit-border-radius: 0px 0px 20px 20px;
+
+                        ">
+                          <p style = "color:#000000;">
+                            NonEssentials
+                             
+                            cibo constituam. Duo primis referrentur ei. Qui eu case posse, et quo patrioque aliquando. No altera iracundia vel. Ex his sumo fuisset.
+
+                            Est deserunt conclusionemque ut, no vix novum voluptaria. An invidunt assentior democritum cum, clita definitionem at sit, ut error vocibus sea. Sonet utroque id qui. Ei doming fastidii reformidans vis, pro zril decore ea. Impetus diceret interpretaris eam ei, ius sint autem adipiscing no. Quodsi periculis ut pro, eam te tation periculis.
+
+                            Mucius putant rationibus quo ad. Ius consetetur assueverit ut, ei cum natum erroribus rationibus. Laoreet conceptam persequeris qui no. Vis no graeci pertinax principes. Id aperiam denique pertinax sed, vix illum singulis deserunt at, pro et nemore eripuit.
+
+                            Cum imperdiet adipiscing an, eam sapientem voluptaria et. Possim incorrupte percipitur an vis, nisl animal graecis ea eam. Ut maiorum comprehensam nec, mel viris assueverit ei. No per nihil soluta bonorum.
+
+                            Justo nostrud numquam eum ei, cibo cetero nec in. Invenire quaerendum ex eum, cum malorum alterum appareat eu. Docendi suavitate splendide eos ut, ne assentior rationibus vis. Ullum altera viderer ea usu, vis et ipsum sonet. Quot persequeris nam cu. At vidit intellegat duo, eu qui consequat efficiantur.
+
+                            Ex mea mutat tollit luptatum, sed eu esse quidam partiendo. Ea tale essent equidem eam, quidam incorrupte contentiones pri cu, et pro quem facete discere. Per dicant theophrastus ut, dicant putant expetendis et eum. Ipsum iudicabit sadipscing mea te, quo no vide solum, duo id tantas tibique petentium. Mel eros perpetua comprehensam ei, vim suas diam inciderint eu, fugit fabellas persequeris no vis.
+
+                            Ei vel mentitum maluisset. Te labitur virtute interesset sea, vidit virtute eum ne. Ad vix equidem tacimates, nostro euismod utroque per ne. Eam paulo torquatos ut, oratio accusam propriae usu id.
+
+                            Et idque causae omnesque per, eu pri graece neglegentur. Erant ludus dicam pri ex, ad has nulla dolores sententiae. Eum at alienum molestiae liberavisse. Id has consetetur dissentiet, solum labore at mei. Sed et unum voluptatibus, his ut aliquip alienum.
+
+                            Nam cu ignota expetenda, idque audiam vel at, at vix iusto fabulas suscipit. Ea ius elit velit vocent, eu mea solet oblique, eu errem maiestatis eum. Vivendum delicatissimi ne eam. Ut perpetua quaerendum eloquentiam est.
+
+                            Nominavi perfecto volutpat has ex, ut ius quas saperet. No tale hinc intellegam per. Mel ex docendi adipisci, sit qualisque contentiones te. Aliquid aliquando no quo, ea commodo viderer consequat cum, hinc quidam definiebas vis eu. Quo et habemus splendide, dicat laboramus quo ea, in pro causae appareat sententiae. In sale putant ponderum vel, sea an graece vocent instructior.
+                          </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <!--End Modal content-->
+
+
+              <div id="fade" class="black_overlay"></div>
+
+            </font>
+          </p>
+        </section>
+      </article>
+
+
+  </div> <!--! end of #container -->
+
+  <footer>
+    
+  </footer>

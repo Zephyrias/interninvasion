@@ -1,0 +1,42 @@
+{
+ 	"id": "vli",
+	"name": "Vicki Li", 
+        "imageUrl": "http://www.petfinder.com/wp-content/uploads/2012/11/101418789-cat-panleukopenia-fact-sheet-632x475.jpg",
+  	"linkedIn": "http://www.linkedin.com",
+        "age": 20, 
+	"height": 52,
+        "school": "University of Michigan",
+        "oneLiner": "Flying Purple Jelly Hippo Waffle",
+        "additional":
+        [
+            {
+                "category": "skills",
+                "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
+                "entries":
+                [
+                    {
+                        "text": "C++"
+                    },
+                    {
+                        "text": "SQL"
+                    },
+                    {
+                        "text": "Photoshop"
+                    }
+                ]
+            },
+            {
+                "category": "hobbies",
+                "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
+                "entries":
+                [
+                    {
+                        "text": "Leauge of Legends Sona"
+                    },
+                    {
+                        "text": "Costume Wearing"
+                    }
+                ]
+            }
+        ]
+}

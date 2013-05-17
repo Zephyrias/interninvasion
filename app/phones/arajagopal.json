@@ -1,0 +1,39 @@
+{
+       "id": "arajagopal", 
+        "name": "Aditi Rajagopal", 
+        "imageUrl": "http://www.lafebervet.com/wp-content/uploads/2010/03/Rabbit-Basic-Information-Sheet.jpg",
+  	"linkedIn": "http://www.linkedin.com",
+        "age": 21, 
+	"height": 51,
+        "school": "University of Michigan",
+        "oneLiner": "I can FLY!",
+        "additional":
+        [
+            {
+                "category": "skills",
+                "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
+                "entries":
+                [
+                    {
+                        "text": "C++"
+                    },
+                    {
+                        "text": "CSE"
+                    }
+                ]
+            },
+            {
+                "category": "hobbies",
+                "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
+                "entries":
+                [
+                    {
+                        "text": "Rock Climbing"
+                    },
+                    {
+                        "text": "I love Breakfast"
+                    }
+                ]
+            }
+        ] 
+}

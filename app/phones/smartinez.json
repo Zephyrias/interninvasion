@@ -1,0 +1,39 @@
+{
+       "id": "smartinez", 
+        "name": "Sebastian Martinez", 
+        "imageUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/260px-YellowLabradorLooking_new.jpg", 
+        "age": 22, 
+ 	"height": 62,
+        "school": "University of Michigan",
+        "oneLiner": "Hippos Fly West",
+        "additional":
+        [
+            {
+                "category": "skills",
+                "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
+                "entries":
+                [
+                    {
+                        "text": "C++" 
+                    },
+                    {
+                        "text": "SQL"
+                    },
+                    {
+                        "text": "objective-C"
+                    }
+                ]
+            },
+            {
+                "category": "hobbies",
+                "entryImage": "http://2.bp.blogspot.com/-IXaXS14NBjk/T1APkfjarPI/AAAAAAAALpI/uk_8_-IHrOg/s1600/lego_logo.png",
+                "entries":
+                [
+                    {
+                        "text": "Legos"
+                    }
+                ]
+            }
+        ]
+} 
+

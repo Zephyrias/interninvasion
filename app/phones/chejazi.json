@@ -1,0 +1,40 @@
+{
+        "id": "chejazi", 
+        "name": "Cameron Hejazi", 
+        "imageUrl": "http://www.acuteaday.com/blog/wp-content/uploads/2010/12/baby-hedgehog-cute-201210.jpeg",
+  	"linkedIn": "http://www.linkedin.com",
+        "age": 21, 
+	"height": 63,
+        "school": "University of Michigan",
+        "oneLiner": "Chicken Can Fly in Space",
+        "additional":
+        [
+            {
+                "category": "skills",
+                "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
+                "entries":
+                [
+                    {
+                        "text": "C++"
+                    },
+                    {
+                        "text": "websites"
+                    }
+                ]
+            },
+            {
+                "category": "hobbies",
+                "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
+                "entries":
+                [
+                    {
+                        "text": "Bro Life"
+                    },
+                    {
+                        "text": "I love being a bro"
+                    }
+                ]
+            }
+        ]
+} 
+
