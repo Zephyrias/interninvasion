@@ -195,6 +195,13 @@ margin-left:20px;
   width: 100px;
 }
 
+.mainpage{
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 200px;
+  width: 100px;
+}
+
 .quotes{
   background: url("quotes.png") no-repeat;
   background-size: 400px 300px;
