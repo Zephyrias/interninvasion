@@ -11,7 +11,7 @@
 
       <article class="span1">
         <section ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail">
-         <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{'./photos/' + phone.id + '0.png'}}"  onmouseover="this.src='{{'./photos/' + phone.id + '1.png'}}'" onmouseout="this.src='{{'./photos/' + phone.id + '0.png'}}'" style = "border-radius: 50px; -moz-border-radius: 50px; -webkit-border-radius: 50px;"></a>
+         <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{'./photos/' + phone.id + '0.png'}}" onmouseover="this.src='{{'./photos/' + phone.id + '1.png'}}'" onmouseout="this.src='{{'./photos/' + phone.id + '0.png'}}'" ></a>
           <a href="#/phones/{{phone.id}}">
             <font size = "6">
               {{phone.oneLiner}}
@@ -24,10 +24,15 @@
               <br> {{phone.age}}
             </p>
 
-            <!--Modal content-->
+            <!--Modal content
 
               <div id="light" class="white_content" style ="background-color: white">
+<<<<<<< Updated upstream
 		<p> I'm here </p>
+=======
+            		<form><input type="button" value="back" onClick="history.go(-1);returntrue;"></form>
+		            <p> I'm here </p>
+>>>>>>> Stashed changes
                 <div id = "exit" style = "float: right; position: relative; top: -10px; left: 10px;">
                   <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><img src = "http://gp1.wac.edgecastcdn.net/802892/production_static/images/v3/standard_resources/ui_elements/modal_close_icon.png"></a>
                 </div>
@@ -112,7 +117,7 @@
                 </div>
               </div>
 
-              <!--End Modal content-->
+              End Modal content-->
 
 
               <div id="fade" class="black_overlay"></div>
