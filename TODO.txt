@@ -1,0 +1,9 @@
+- Links 
+- Button for google doc (Judge us)
+- Button for main page (currently only goes back in history)
+- Scaling for all window sizes
+- Save all images in photos folder, update all image paths
+- Change colors of skills 
+
+- Flesh out our profiles
+
