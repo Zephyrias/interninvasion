@@ -202,6 +202,14 @@ margin-left:20px;
   width: 100px;
 }
 
+.judgeus{
+  position: fixed;
+  bottom: 20px;
+  width: 100px;
+   
+
+}
+
 .quotes{
   background: url("quotes.png") no-repeat;
   background-size: 400px 300px;
