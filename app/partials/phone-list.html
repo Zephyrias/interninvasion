@@ -7,6 +7,8 @@
       <input ng-model="query">
 </div>
 <div id="container" class="cf" style = "height: 100%;">  
+      <div id="quotations"><img src="./photos/Quotes.jpg"></div>
+
       <article class="span1">
         <section ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail">
          <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{'./photos/' + phone.id + '0.png'}}"  onmouseover="this.src='{{'./photos/' + phone.id + '1.png'}}'" onmouseout="this.src='{{'./photos/' + phone.id + '0.png'}}'" style = "border-radius: 50px; -moz-border-radius: 50px; -webkit-border-radius: 50px;"></a>
@@ -25,6 +27,8 @@
             <!--Modal content-->
 
               <div id="light" class="white_content" style ="background-color: white">
+		<form><input type="button" value="back" onClick="history.go(-1);returntrue;"></form>
+		<p> I'm here </p>
                 <div id = "exit" style = "float: right; position: relative; top: -10px; left: 10px;">
                   <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><img src = "http://gp1.wac.edgecastcdn.net/802892/production_static/images/v3/standard_resources/ui_elements/modal_close_icon.png"></a>
                 </div>
