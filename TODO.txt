@@ -1,9 +1,10 @@
-- Links 
-- Button for google doc (Judge us)
-- Button for main page (currently only goes back in history)
-- Scaling for all window sizes
-- Save all images in photos folder, update all image paths
-- Change colors of skills 
+Time to spend (maximum)
+15 min		- Links 
+10 min		- Button for google doc (Judge us)
+10 min		- Button for main page (currently only goes back in history)
+30 min		- Scaling for all window sizes
+30 min		- Save all images in photos folder, update all image paths
+10 min		- Change colors of skills 
 
-- Flesh out our profiles
+Sunday		- Flesh out our profiles
 
