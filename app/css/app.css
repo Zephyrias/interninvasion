@@ -105,8 +105,7 @@ article{
 margin-left:20px;
 }
 .thumbnail {
-    height:50px;
-    padding:2px;
+  position: relative;
 }
 
 .large {
@@ -518,6 +517,9 @@ h3.header{
 
 .oneliner {
   color:#cc0033;
+  position: absolute;
+  left: 120px;
+  white-space: nowrap;
   font-size: 45px;
   font-family: impact;
 }
@@ -529,6 +531,9 @@ h3.header{
 
 .essentials {
   color: #4e4e4e;
+  position: absolute;
+  left: 120px;
+  white-space: nowrap;
 }
 
 .phones li {
