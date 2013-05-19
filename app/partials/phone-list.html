@@ -7,8 +7,7 @@
       <input ng-model="query" class="search">
 </div>
 <div id="container" class="cf" style = "height: 100%;">  
-      <div id="quotations"><img src="./photos/Quotes.jpg" style="width:12%"></div>
-
+      <div class="quotes"><img src="./photos/Quotes.jpg"></div>
       <article class="span1">
         <section ng-repeat="phone in phones | filter:query | orderBy:orderProp">
           <div class="thumbnail">
