@@ -145,18 +145,19 @@ margin-left:20px;
 
 .judgeus{
   position: absolute;
-  bottom: 20px;
-  width: 160px;
-  height: 65px;
+  top: 300px;
+  left: 40px;
+  width: 120px;
+  height: 60px;
   background:#cc0033; 
-  font-size:40px; 
+  font-size:25px; 
   border:none; 
   color:#FFFFFF; 
   font-family:impact;
 }
 
 .judgeus:hover{
-  color:#939393;
+  background:#760000;
 }
 
 .quotes{
@@ -296,7 +297,7 @@ nav a{
 /* MEDIA QUERIES */
 
 /* Responsify Defaults */
-
+/*
 @media screen and (max-width: 768px){
   nav .span1{
     width: 100%;
@@ -328,7 +329,7 @@ nav a{
     padding: 14px 0 14px 0;
   }
 }
-
+*/
 /* Custom Breakpoints */
 
 @media screen and (max-width: 477px) {
@@ -513,6 +514,21 @@ h3.header{
   height: 100px;
   width: 100px;
   margin-right: 20px;
+}
+
+.oneliner {
+  color:#cc0033;
+  font-size: 45px;
+  font-family: impact;
+}
+
+.oneliner:hover {
+  color:#760000;
+  text-decoration: none;
+}
+
+.essentials {
+  color: #4e4e4e;
 }
 
 .phones li {

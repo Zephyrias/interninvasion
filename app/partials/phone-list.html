@@ -11,17 +11,18 @@
 
       <article class="span1">
         <section ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail">
-         <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{'./photos/' + phone.id + '0.png'}}" onmouseover="this.src='{{'./photos/' + phone.id + '1.png'}}'" onmouseout="this.src='{{'./photos/' + phone.id + '0.png'}}'" ></a>
-          <a href="#/phones/{{phone.id}}">
-            <font size = "6">
-              {{phone.oneLiner}}
-            </font>
-          </a>
+         <a href="#/phones/{{phone.id}}" class="thumb">
+            <img ng-src="{{'./photos/' + phone.id + '0.png'}}" 
+                  onmouseover="this.src='{{'./photos/' + phone.id + '1.png'}}'" 
+                  onmouseout="this.src='{{'./photos/' + phone.id + '0.png'}}'" ></a>
+            <a href="#/phones/{{phone.id}}" class="oneliner">
+                {{phone.oneLiner}}
+            </a>
           <p>
             <font size = "4")>
-            <p>
+            <p class="essentials">
               {{phone.name}}
-              <br> {{phone.age}}
+              <br> level {{phone.age}} {{phone.title}}
             </p>
               <div id="fade" class="black_overlay"></div>
 
