@@ -57,7 +57,7 @@ ul{
    left: 5px;
    width: 350px;
    height: 400px;
-   margin-right: 20px;
+   margin-right: 75px;
 }
 .left2{
    position: relative;
@@ -204,7 +204,7 @@ body {
   background: url("quotes.png") no-repeat;
   position: absolute;
   top: 0px;
-  right: 0px;
+  right: 85px;
   width: 12%;
 }
 
@@ -569,10 +569,11 @@ h3.header{
 .oneliner {
   color:#cc0033;
   position: absolute;
-  left: 120px;
+  left: 175px;
   white-space: nowrap;
   font-size: 45px;
   font-family: impact;
+  margin-top:20px;
 }
 
 .oneliner:hover {
@@ -583,8 +584,9 @@ h3.header{
 .essentials {
   color: #4e4e4e;
   position: absolute;
-  left: 120px;
+  left: 175px;
   white-space: nowrap;
+  margin-top:25px;
 }
 
 .phones li {

@@ -67,7 +67,7 @@ sub {
 }
 
 img {
-  max-width: 100%;
+  max-width: 150%;
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
@@ -4407,7 +4407,7 @@ input[type="submit"].btn.btn-mini {
 .thumbnail {
   display: block;
   width: 100%;
-  height:110px;
+  height:140px;
   line-height: 1;
   border: 0px solid #ddd;
   -webkit-border-radius: 4px;
