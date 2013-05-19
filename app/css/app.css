@@ -183,7 +183,7 @@ ul{
   left: 19px;
   top: 24px;
   z-index: 3;
-}
+} 
 
 .span1{
     -webkit-box-sizing:border-box;
@@ -258,7 +258,6 @@ header h1{
 #container{
   clear: both;
   float: left;
-  padding-top: -20px;
   position: absolute;
   background-color: white;
   margin-top:-20px;
@@ -408,8 +407,8 @@ body {
 .wrapper{
   background-color: #FFFFFF;
   text-align: left;
-  margin-left: 50px;
-  height: 100%;
+  margin-left: 235px;
+  margin-top: 20px;
 }
 
 .three-col{

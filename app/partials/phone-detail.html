@@ -3,21 +3,21 @@
 </div>
 <div id="container" class="cf">  
 <div id="wrapper" class="wrapper" style = "background-color: white">
-    <h1>My Software Doesn't get Bugs, it just develops random features</h1>
-  	<article class="span1" style = "margin-left: 20px; position: relative; left: 550px; width: 500px;">
+    <h1 style="font-family:impact; font-size: 50px">{{phone.oneLiner}}</h1>
+  	<article class="span1">
 		<section>
           <h2>{{phone.name}}</h2>
-          <h3>Level {{phone.age}}</h3>
+          <h3>level {{phone.age}} {{phone.title}}</h3>
           <h3>{{phone.school}}</h3>
-          <h3>Office Location: San Francisco, CA</h3>
-        </section>
+          <h3>Office Location: San Francisco, CA</h3> 
+    </section>
         <hr>
         <section>
           <h2>Connect</h2>
           <a href = "{{phone.linkedIn}}"><img src = "http://yaleherald.com/wp-content/uploads/2013/03/Linkedin_Shiny_Icon.svg_.png" style = "max-height: 5%"></a>
         </section>
         <hr>
-        <section>
+        <section>/*
           <h2>Mad Skills</h2><br>
             <div class="meter">
               <span style="width: {{phone.skills[0].percent}}%; padding-left:10px">{{phone.skills[0].string}}</span>
@@ -28,7 +28,6 @@
             <div class="meter">
               <span style="width: {{phone.skills[2].percent}}%; padding-left:10px">{{phone.skills[2].string}}</span>
             </div>
-
         </section>
 			</article>
       <div id = "about" style = "position: absolute; top: 630px; background-color: white">
@@ -50,8 +49,7 @@
               </li>
             </ul>
           </p>
-      </div>
-
+      </div> 
   </div> <!--! end of #container -->
 </div>
 
