@@ -41,8 +41,49 @@ ul{
     white-space:nowrap;
 }
 
+
+.topinfo{
+   position: relative;
+   float: left;
+   left: 0px;
+   width: 1000px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+
+}
+.left1{
+   position: relative;
+   float: left;
+   left: 5px;
+   width: 350px;
+   height: 400px;
+   margin-right: 20px;
+}
+.left2{
+   position: relative;
+   float: left;
+   left: 35px;
+   width: 400px;
+   height: 400px;
+}
+body {
+   border-width: 0px;
+   padding: 0px;
+   margin: 0px;
+   font-size: 90%;
+   background-color: #e7e7de
+}
+
+
+.center {
+  max-width:960px;
+  width:100%;
+  margin:0 auto;
+}
+
+
 .meter { 
-  height: 20px;
+  height: 15px;
   position: relative;
   background: #555;
   -moz-border-radius: 25px;
@@ -53,29 +94,29 @@ ul{
   -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.0);
   box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.0);
 }
-/
+
 .meter > span {
   display: block;
   height: 100%;
   background-image: -webkit-linear-gradient(
     center bottom,
-    rgb(43,194,83) 37%,
-    rgb(84,240,84) 69%
+    rgb(214,0,48) 37%,
+    rgb(255,112,143) 69%
   );
   background-image: -moz-linear-gradient(
     center bottom,
-    rgb(43,194,83) 37%,
-    rgb(84,240,84) 69%
+    rgb(214,0,48) 37%,
+    rgb(255,112,143) 69%
   );
   background-image: -ms-linear-gradient(
     center bottom,
-    rgb(43,194,83) 37%,
-    rgb(84,240,84) 69%
+    rgb(214,0,48) 37%,
+    rgb(255,112,143) 69%
   );
   background-image: -o-linear-gradient(
     center bottom,
-    rgb(43,194,83) 37%,
-    rgb(84,240,84) 69%
+    rgb(214,0,48) 37%,
+    rgb(255,112,143) 69%
    );
   -webkit-border-top-right-radius: 8px;
   -webkit-border-bottom-right-radius: 8px;
@@ -94,12 +135,11 @@ ul{
     linear,
     left bottom,
     left top,
-    color-stop(0, rgb(43,194,83)),
-    color-stop(1, rgb(84,240,84))
-  );/
+    color-stop(0, rgb(214,0,48)),
+    color-stop(1, rgb(255,112,143))
+  );
 
 }
-
 .thumbnail {
   position: relative;
   left: 200px;
@@ -367,6 +407,7 @@ nav a{
 section{
   margin-left: 20px;
   padding:10px;
+  margin-bottom: 20px;
 }
 
 body {
