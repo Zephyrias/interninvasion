@@ -6,7 +6,7 @@
         "age": 21,
         "title": "superhero",        
         "school": "University of Michigan",
-        "oneLiner": "I often host male beauty pageants",
+        "oneLiner": "Dynamite comes in small packages",
         "skills":
         [
             {
@@ -32,8 +32,8 @@
                     {
                         "text": "Watching and Playing Sports including: Tennis, Swimming, and of course FOOTBALL." 
                     },
-                    {
-                        "text": "I also enjoy hanging out at the Michigan Football Stadium. Sometimes in the Locker Rooms. Sometimes in Lockers." 
+                    
+{                        "text": "I also enjoy hanging out at the Michigan Football Stadium. Sometimes in the Locker Rooms. Sometimes in Lockers." 
                     },
 
                     {
@@ -48,7 +48,7 @@
                 ]
             },
             {
-                "category": "Male Beauty Pageants You Say?",
+                "category": "I often host Male Beauty Pageants",
                 "entryImage": "photos/MrEngineer2012.jpg",
                 "entries":
                 [
