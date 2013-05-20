@@ -1,57 +1,78 @@
 {
  	    "id": "vli",
 	    "name": "Vicki Li",
-        "profileImageUrl": "http://2.bp.blogspot.com/-IXaXS14NBjk/T1APkfjarPI/AAAAAAAALpI/uk_8_-IHrOg/s1600/lego_logo.png", 
-  	    "linkedIn": "http://www.linkedin.com",
+        "profileImageUrl": "photos/Profile.jpg", 
+  	    "linkedIn": "http://www.linkedin.com/profile/view?id=169046911&trk=tab_pro",
         "age": 20, 
-        "title": "rockstar",        
+        "title": "pikachu",        
         "school": "University of Michigan",
-        "oneLiner": "Flying Purple Jelly Hippo Waffle",
+        "oneLiner": "I'm not weird, I'm limited edition",
         "skills":
         [
             {
-                "string": "C++",
-                "percent": 90
+                "string": "lucid dreaming",
+                "percent": 65
             },
             {
-               "string": "?",
-                "percent": 100
+               "string": "accepting challenges",
+                "percent": 96
             },
             {
-                "string": "LoL",
-                "percent": 10
+                "string": "speaking elvish",
+                "percent": 15
             }
         ],
         "additional":
         [
             {
-                "category": "skills",
-                "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
+                "category": "Current tendencies",
+                "entryImage": "photos/NerfProfile.jpg",
                 "entries":
                 [
                     {
-                        "text": "C++"
+                        "text": "Nerf: New to the culture, not new to hunting people down in my fivefingers shoes. [You guys have no idea what you're getting into.]"
                     },
                     {
-                        "text": "SQL"
+                        "text": "Sketching, Photoshopping, drawing on my arm...: Worked on a visual novel with a friend at some point as well. Art is a fun thing that occasionally ends up with show-off-able results."
                     },
                     {
-                        "text": "Photoshop"
+                        "text": "Dressing up, whether for fun or for show (cosplay included): apparently San Francisco is a good city for that. Modelled for my fashion-designer-wanna-be friend for a bit, too. Turns out make-up is like real-life Photoshop. Who knew?"
+                    },
+                    {
+                        "text": "Gaming (especially with other people): It would definitely take more than just one page for me to rant about how much I've learned from games in general. Current favorites include League of Legends and..... yeah, League of Legends."
+                    },
+                    {
+                        "text": "Coding under the influence [of mountain dew and dubstep]: When deadlines are coming up, or when I'm dealing with a particularly frustrating project... You might catch me locking myself in the corner with my music and my caffeine, making miracles while temporarily unresponsive to the rest of the world. (I apologize in advance for ignoring anyone unintentionally)"
+                    },
+                    {
+                        "text": "Tutoring: Typically helping with math, essay-writing, or standardize tests. I find that there is a certain joy not in proving kids that they're wrong, but in showing they are mentally capable of being consistently right... sometimes."
+                    },
+                    {
+                        "text": "Talking a lot: Please tell me when to stop."
                     }
                 ]
             },
             {
-                "category": "hobbies",
-                "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
+                "category": "Previous tendencies",
+                "entryImage": "photos/keytar.jpg",
                 "entries":
                 [
                     {
-                        "text": "Leauge of Legends Sona"
+                        "text": "Obsession with foreign languages/codes: Memorized morse code in one night for a dare, forgot it by the next. Tried braille, sign language, Sindarin (elvish from Lord of the Rings), the language from the Artermis Fowl series... I do not claim to remember ANY of these anymore."
                     },
                     {
-                        "text": "Costume Wearing"
+                        "text": "Being a rockstar: Was in a band with a few friends in high school, playing both keyboard (took piano for 10 years) and keytar (which I still have), and also singing (after 7 years of choir). Anyone up for karaoke night?"
+                    }
+                    {
+                        "text": "Martial arts: Spent some time in high school learning Aikido, which is self-defense. It's supposedly designed for short people because you don't require any real strength, just knowledge of basic anatomy and center of gravity stuff. Stopped because I broke my collar bone, though. Won't share what belt I reached."
+                    }
+                    {
+                        "text": "Anime/Manga: Errrr.... I don't really have the time for it anymore, but I still enjoy it a bit, and it's technically how I got into art. I'm still in touch with the school's club, Animania, but I don't really do much with it myself anymore. Not since we memorized a dance for twelve of us to dress up and do at Youmacon 2012. Thank goodness we didn't have time to implement videos..."
+                    }
+                    {
+                        "text": "Writing: I hate to admit it, but my writing started off with doing fanfiction with three other girls in middle school. We set up character profiles and what-not, ended up with 80 pages (which is a lot for 13 year olds, by the way) for our first draft. Although the group broke up gradually after middle school, I've enjoyed writing since then.
                     }
                 ]
-            }
+            },
         ]
 }

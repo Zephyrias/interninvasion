@@ -3,16 +3,16 @@
  	    "id": "vli",
 	    "name": "Vicki Li",
         "age": 20, 
-        "title": "rockstar",
+        "title": "pikachu",
 	    "height": 52,
         "school": "University of Michigan",
-        "oneLiner": "Flying Purple Jelly Hippo Waffle"
+        "oneLiner": "I'm not weird, I'm limited edition"
     }, 
     {
         "id": "smartinez", 
         "name": "Sebastian Martinez", 
         "age": 22, 
-        "title": "gamer",        
+        "title": "amigo",        
 	    "height": 62,
         "school": "University of Michigan",
         "oneLiner": "Hippos Fly West"
