@@ -57,6 +57,16 @@
                 ]
             },
             {
+                "category": "My Dog",
+                "entryImage": "photos/max.jpeg",
+                "entries":
+                [
+                    {
+                        "text": "My best friend Max"
+                    }
+                ]
+            },
+            {
                 "category": "I used to have lots of hair",
                 "entryImage": "photos/beach.jpg",
                 "entries":
