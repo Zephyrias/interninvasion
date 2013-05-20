@@ -3,8 +3,8 @@
 /* Controllers */
 
 function PhoneListCtrl($scope, $http) {
-  $http.get('phones/phones.json').success(function(data) {
-    $scope.phones = data;
+  $http.get('interns/interns.json').success(function(data) {
+    $scope.interns = data;
   });
 
   $scope.orderProp = 'name';
@@ -14,7 +14,7 @@ function PhoneListCtrl($scope, $http) {
 
 
 function PhoneDetailCtrl($scope, $routeParams, $http) {
-   $http.get('phones/' + $routeParams.phoneId + '.json').success(function(data) {
+   $http.get('interns/' + $routeParams.phoneId + '.json').success(function(data) {
    $scope.phone = data;
   });
 }

@@ -1,0 +1,57 @@
+{
+ 	    "id": "vli",
+	    "name": "Vicki Li",
+        "profileImageUrl": "http://2.bp.blogspot.com/-IXaXS14NBjk/T1APkfjarPI/AAAAAAAALpI/uk_8_-IHrOg/s1600/lego_logo.png", 
+  	    "linkedIn": "http://www.linkedin.com",
+        "age": 20, 
+        "title": "rockstar",        
+        "school": "University of Michigan",
+        "oneLiner": "Flying Purple Jelly Hippo Waffle",
+        "skills":
+        [
+            {
+                "string": "C++",
+                "percent": 90
+            },
+            {
+               "string": "?",
+                "percent": 100
+            },
+            {
+                "string": "LoL",
+                "percent": 10
+            }
+        ],
+        "additional":
+        [
+            {
+                "category": "skills",
+                "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
+                "entries":
+                [
+                    {
+                        "text": "C++"
+                    },
+                    {
+                        "text": "SQL"
+                    },
+                    {
+                        "text": "Photoshop"
+                    }
+                ]
+            },
+            {
+                "category": "hobbies",
+                "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
+                "entries":
+                [
+                    {
+                        "text": "Leauge of Legends Sona"
+                    },
+                    {
+                        "text": "Costume Wearing"
+                    }
+                ]
+            }
+        ]
+}

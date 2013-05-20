@@ -1,0 +1,77 @@
+{
+        "id": "arajagopal", 
+        "name": "Aditi Rajagopal",
+        "profileImageUrl": "photos/arajagopal2.png",
+  	    "linkedIn": "http://www.linkedin.com/pub/aditi-rajagopal/36/193/27",
+        "age": 21,
+        "title": "superhero",        
+        "school": "University of Michigan",
+        "oneLiner": "I often host male beauty pageants",
+        "skills":
+        [
+            {
+                "string": "Cupcake Making",
+                "percent": 95
+            },
+            {
+               "string": "Ninja Photography",
+                "percent": 80
+            },
+            {
+                "string": "Being Tall",
+                "percent": 20
+            }
+        ],
+        "additional":
+        [
+            {
+                "category": "Interests",
+                "entryImage": "photos/LockerRoomAdventures.jpg",
+                "entries":
+                [
+                    {
+                        "text": "Watching and Playing Sports including: Tennis, Swimming, and of course FOOTBALL." 
+                    },
+                    {
+                        "text": "I also enjoy hanging out at the Michigan Football Stadium. Sometimes in the Locker Rooms. Sometimes in Lockers." 
+                    },
+
+                    {
+                        "text": "Improving my French. Because I currently have the vocabulary of a 10 year old."
+                    },
+                    {
+                        "text": "Web, Graphic and Logo Design; I find the intersection between advertising, design, and technology really cool"
+                    },
+                    {
+                        "text": "Cooking, Baking, Eating, and taking pictures of food!"
+                    }
+                ]
+            },
+            {
+                "category": "Male Beauty Pageants You Say?",
+                "entryImage": "photos/MrEngineer2012.jpg",
+                "entries":
+                [
+                    {
+                        "text": "Yessir (or M'am) -- For the past 3 years, I have helped organize and host the Mr. Engineer Competition. I have directed and hosted the show!"
+                    },
+                    {
+                        "text": "Check out the video here: http://www.youtube.com/watch?v=5S-pkPuA2VI"
+                    }
+                ]
+            },
+            {
+                "category": "Avid Instagrammer and Photographer",
+                "entryImage": "photos/HerroSexyLady.jpg",
+                "entries":
+                [
+                    {
+                        "text": "My camera follows me where ever I go -- it's just a basic point and shoot camera, but it gets the job done."
+                    },
+                    {
+                        "text": "I'm that kid who takes pictures of her food and posts it on instagram. I'm also a ninja photographer. You have been warned"
+                    }
+                ]
+            }
+        ]
+} 
