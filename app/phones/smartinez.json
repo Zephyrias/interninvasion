@@ -1,52 +1,68 @@
 {
         "id": "smartinez", 
         "name": "Sebastian Martinez",
-        "profileImageUrl": "http://2.bp.blogspot.com/-IXaXS14NBjk/T1APkfjarPI/AAAAAAAALpI/uk_8_-IHrOg/s1600/lego_logo.png",
-        "linkedIn": "http://www.linkedin.com",
+        "profileImageUrl": "photos/portal.jpg",
+        "linkedIn": "http://www.linkedin.com/pub/sebastian-martinez/59/a68/94a",
         "age": 22,
-        "title": "gamer",       
+        "title": "amigo",       
         "school": "University of Michigan",
         "oneLiner": "Hippos Fly West",
         "skills":
         [
             {
-                "string": "C++",
-                "percent": 90
+                "string": "coding",
+                "percent": 85
             },
             {
-               "string": "SQL",
-                "percent": 80
+               "string": "Eating Pizza",
+                "percent": 65
             },
             {
                 "string": "LEGO Building",
-                "percent": 100
+                "percent": 95
             }
         ],
         "additional":
         [
             {
-                "category": "skills",
-                "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
+                "category": "Hobbies",
+                "entryImage": "photos/scuba.jpg",
                 "entries":
                 [
                     {
-                        "text": "C++" 
+                        "text": "Scuba Diving" 
                     },
                     {
-                        "text": "SQL"
+                        "text": "Fishing"
                     },
                     {
-                        "text": "objective-C"
+                        "text": "Videogames"
+                    },
+                    {
+                        "text": "Cooking Waffles"
                     }
                 ]
             },
             {
-                "category": "hobbies",
-                "entryImage": "http://2.bp.blogspot.com/-IXaXS14NBjk/T1APkfjarPI/AAAAAAAALpI/uk_8_-IHrOg/s1600/lego_logo.png",
+                "category": "LEGOs LEGOs and more LEGOs",
+                "entryImage": "photos/steampunk.jpg",
                 "entries":
                 [
                     {
-                        "text": "Legos"
+                        "text": "I have been playing and building with LEGOs since I was a kid"
+                    },
+                    {
+                        "text": "I enjoy building big dioramas and have won some awards for my designs and displays"
+                    }
+                ]
+            },
+            {
+                "category": "I used to have lots of hair",
+                "entryImage": "photos/beach.jpg",
+                "entries":
+                [
+                    {
+                        "text": "so much hair......"
                     }
                 ]
             }
