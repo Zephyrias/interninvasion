@@ -9,13 +9,13 @@
 <div id="container" class="cf" style = "height: 100%;">  
       <div class="quotes"><img src="./photos/Quotes.jpg"></div>
       <article class="span1">
-        <section ng-repeat="phone in phones | filter:query | orderBy:orderProp">
+        <section ng-repeat="phone in interns | filter:query | orderBy:orderProp">
           <div class="thumbnail">
-         <a href="#/phones/{{phone.id}}" class="thumb">
+         <a href="#/interns/{{phone.id}}" class="thumb">
             <img ng-src="{{'./photos/' + phone.id + '0.png'}}" 
                   onmouseover="this.src='{{'./photos/' + phone.id + '1.png'}}'" 
                   onmouseout="this.src='{{'./photos/' + phone.id + '0.png'}}'" ></a>
-            <a href="#/phones/{{phone.id}}" class="oneliner">
+            <a href="#/interns/{{phone.id}}" class="oneliner">
                 {{phone.oneLiner}}
             </a>
           <p>
