@@ -1,11 +1,6 @@
 {
-        "id": "arajagopal", 
-        "name": "Aditi Rajagopal",
-        "profileImageUrl": "photos/arajagopal2.png",
-  	    "linkedIn": "http://www.linkedin.com/pub/aditi-rajagopal/36/193/27",
-        "age": 21,
-        "title": "superhero",        
-        "school": "University of Michigan",
+        "id": "arajagopal",  
+        "linkedIn": "http://www.linkedin.com/pub/aditi-rajagopal/36/193/27",
         "oneLiner": "Dynamite comes in small packages",
         "skills":
         [
@@ -24,6 +19,22 @@
         ],
         "additional":
         [
+            {
+                "category": "Aditi Rajagopal",
+                "entryImage": "photos/arajagopal2.png",
+                "entries":
+                [
+                    {
+                        "text":  "level 21 superhero"
+                    },
+                    {
+                        "text": "University of Michigan"
+                    },
+                    { 
+                        "text": "Office Location: San Francisco, CA"
+                    }
+                ]
+            },
             {
                 "category": "Interests",
                 "entryImage": "photos/LockerRoomAdventures.jpg",

@@ -159,7 +159,7 @@ body {
 }
 
 .large {
-    width: 405px;
+    width: 410px;
 }
 
 .search{
@@ -328,7 +328,7 @@ header h1{
 
 
 .bg {
-  background-color: #333;
+  background-color: #fff;
   padding:10px;
   border-radius:8px;
   float:left;
@@ -338,12 +338,12 @@ header h1{
   background-color:#fff;
   border-radius:8px;
   float:left;
-  width: 400px;
+  width: 450px;
   padding:10px;
 }
 
 .viewwindow {
-  width: 400px;
+  width: 460px;
   height: 400px;
   overflow-x: hidden;
   position:relative;
@@ -385,6 +385,8 @@ header h1{
 
 .thumbswrapper {
   float:left;
+  position: absolute;
+  left: 250px;
   overflow-x: scroll;
   width:500px;
   height:100px;

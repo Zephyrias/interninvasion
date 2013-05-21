@@ -1,11 +1,6 @@
 {
-        "id": "chejazi", 
-        "name": "Cameron Hejazi",
-        "profileImageUrl": "./photos/boom.png",
-  	    "linkedIn": "http://www.linkedin.com",
-        "age": 21,
-        "title": "",       
-        "school": "University of Michigan",
+        "id": "chejazi",    
+        "linkedIn": "www.linkedin.com",
         "oneLiner": "Rick Astley is pretty funny",
         "skills":
         [
@@ -25,6 +20,22 @@
         "additional":
         [
             {
+                "category": "Cameron Hejazi",
+                "entryImage": "photos/boom.png",
+                "entries":
+                [
+                    {
+                        "text":  "level 21 badass"
+                    },
+                    {
+                        "text": "University of Michigan"
+                    },
+                    { 
+                        "text": "Office Location: San Francisco, CA"
+                    }
+                ]
+            },
+            {
                 "category": "Interests",
                 "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
                 "entries":
@@ -35,9 +46,9 @@
                     {
                         "text": "Internet Rights"
                     },
-			{
-			"text": "Bitcoin"
-			}
+        			{
+        			"text": "Bitcoin"
+        			}
                 ]
             },
             {

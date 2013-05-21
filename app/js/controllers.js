@@ -25,17 +25,17 @@ function PhoneDetailCtrl($scope, $routeParams, $http) {
 //PhoneDetailCtrl.$inject = ['$scope', '$routeParams', '$http'];
 
 
-function GalleryController($scope, $http){
-	var IMAGE_WIDTH = 430;
+function GalleryController($scope, $routeParams, $http){
+	var IMAGE_WIDTH = 410;
 
-	$http.get("vli.json", function(data) {
-		$scope.additional = data;
-		$scope.selected = data[0];
+	$http.get('interns/' + $routeParams.phoneId + '.json').success(function(data) {
+		$scope.additional = data.additional;
+		$scope.selected = data.additional[0];
 	});
 
-	$scope.scrollTo = function(data, ind) {
+	$scope.scrollTo = function(entry, ind) {
 		$scope.listposition = {left:(IMAGE_WIDTH * ind * -1) + "px"};
-		$scope.selected = data;
+		$scope.selected = entry;
 	};
 
 };

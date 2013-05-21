@@ -1,11 +1,6 @@
 {
- 	    "id": "vli",
-	    "name": "Vicki Li",
-        "profileImageUrl": "photos/Profile.jpg", 
-  	    "linkedIn": "www.linkedin.com/pub/vicki-li/48/744/a7/",
-        "age": 20, 
-        "title": "pikachu",        
-        "school": "University of Michigan",
+        "id": "vli",
+        "linkedIn": "www.linkedin.com/pub/vicki-li/48/744/a7/",
         "oneLiner": "I'm not weird, I'm limited edition",
         "skills":
         [
@@ -21,9 +16,25 @@
                 "string": "elvish",
                 "percent": 15
             }
-        ],
+        ],  
         "additional":
         [
+            {
+                "category": "Vicki Li",
+                "entryImage": "photos/profile.jpg",
+                "entries":
+                [
+                    {
+                        "text":  "level 20 pikachu"
+                    },
+                    {
+                        "text": "University of Michigan"
+                    },
+                    { 
+                        "text": "Office Location: San Francisco, CA"
+                    }
+                ]
+            },
             {
                 "category": "Current tendencies",
                 "entryImage": "photos/NerfProfile.jpg",
@@ -46,6 +57,9 @@
                     },
                     {
                         "text": "Tutoring: Typically helping with math, essay-writing, or standardize tests (stop making faces, it's not that bad)."
+                    },
+                    {
+                        "text": "Talking a lot: Please tell me when to stop."
                     }
                 ]
             },
@@ -72,4 +86,6 @@
                 ]
             }
         ]
-}
+    }
+
+

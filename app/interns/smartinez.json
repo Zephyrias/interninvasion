@@ -1,11 +1,6 @@
 {
-        "id": "smartinez", 
-        "name": "Sebastian Martinez",
-        "profileImageUrl": "photos/portal.jpg",
+        "id": "smartinez",  
         "linkedIn": "http://www.linkedin.com/pub/sebastian-martinez/59/a68/94a",
-        "age": 22,
-        "title": "amigo",       
-        "school": "University of Michigan",
         "oneLiner": "A waffle is like a pancake with a syrup trap",
         "skills":
         [
@@ -24,6 +19,35 @@
         ],
         "additional":
         [
+            {
+                "category": "Sebastian Martinez",
+                "entryImage": "photos/portal.jpg",
+                "entries":
+                [
+                    {
+                        "text":  "level 22 amigo"
+                    },
+                    {
+                        "text": "University of Michigan"
+                    },
+                    { 
+                        "text": "Office Location: San Francisco, CA"
+                    }
+                ]
+            },
+            {
+                "category": "LEGOs LEGOs and more LEGOs",
+                "entryImage": "photos/steampunk.jpg",
+                "entries":
+                [
+                    {
+                        "text": "I have been playing and building with LEGOs since I was a kid"
+                    },
+                    {
+                        "text": "I enjoy building big dioramas and have won some awards for my designs and displays"
+                    }
+                ]
+            },
             {
                 "category": "Hobbies",
                 "entryImage": "photos/scuba.jpg",
@@ -44,15 +68,12 @@
                 ]
             },
             {
-                "category": "LEGOs LEGOs and more LEGOs",
-                "entryImage": "photos/steampunk.jpg",
+                "category": "I used to have lots of hair",
+                "entryImage": "photos/beach.jpg",
                 "entries":
                 [
                     {
-                        "text": "I have been playing and building with LEGOs since I was a kid"
-                    },
-                    {
-                        "text": "I enjoy building big dioramas and have won some awards for my designs and displays"
+                        "text": "so much hair......"
                     }
                 ]
             },
@@ -63,16 +84,6 @@
                 [
                     {
                         "text": "My best friend Max"
-                    }
-                ]
-            },
-            {
-                "category": "I used to have lots of hair",
-                "entryImage": "photos/beach.jpg",
-                "entries":
-                [
-                    {
-                        "text": "so much hair......"
                     }
                 ]
             }
