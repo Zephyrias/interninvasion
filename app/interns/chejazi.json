@@ -1,25 +1,25 @@
 {
         "id": "chejazi", 
         "name": "Cameron Hejazi",
-        "profileImageUrl": "http://2.bp.blogspot.com/-IXaXS14NBjk/T1APkfjarPI/AAAAAAAALpI/uk_8_-IHrOg/s1600/lego_logo.png",
+        "profileImageUrl": "./photos/boom.png",
   	    "linkedIn": "http://www.linkedin.com",
         "age": 21,
-        "title": "badass",       
+        "title": "",       
         "school": "University of Michigan",
-        "oneLiner": "Chicken Can Fly in Space",
+        "oneLiner": "Rick Astley is pretty funny",
         "skills":
         [
             {
-                "string": "C++",
-                "percent": 90
+                "string": "Brogramming",
+                "percent": 80
             },
             {
-               "string": "stuff",
-                "percent": 50
-            },
-            {
-                "string": "Bro Life",
+               "string": "Trying new things",
                 "percent": 100
+            },
+            {
+                "string": "Critical thinking",
+                "percent": 70
             }
         ],
         "additional":
