@@ -46,21 +46,7 @@
           </div>
         </div>
 
-      </div>
-
-<!--
-      <div class="topinfo">
-        <div class="left1">
-            <img src = "{{phone.profileImageUrl}}" style = "width: 400px; height: 400px; border-radius: 200px; -moz-border-radius: 200px; -webkit-border-radius: 200px;">      
-
-        </div>
-        <div class="left2">
-            <h2>{{phone.name}}</h2>
-            <h3 style = "color: #000000">level {{phone.age}} {{phone.title}}</h3>
-            <h3 style = "color: #000000">{{phone.school}}</h3>
-            <h3 style = "color: #000000">Office Location: San Francisco, CA</h3> 
-            <h2>Connect</h2>
-            <a href = "{{phone.linkedIn}}"><img src = "http://yaleherald.com/wp-content/uploads/2013/03/Linkedin_Shiny_Icon.svg_.png" style = "max-height: 15%"></a>
+      <div class="left2">
             <h2>Mad Skills</h2><br>
               <div class="meter">
                 <span style="width: {{phone.skills[0].percent}}%; padding-left:10px"><b>{{phone.skills[0].string}}</b></span>
@@ -73,30 +59,10 @@
               </div>
 
         </div>
-      </div> 
-    	<article class="span1" style = "position: absolute; top: 600px">
-          <section>
-          <h1>About {{phone.name}}</h1>
-            <p style = "color:#000000; font-size: 28px">
-              <ul>
-                <li ng-repeat="additional in phone.additional">
-                  <h2>{{additional.category}}</h2>
-                    <img ng-src={{additional.entryImage}} width="200px">
-                    <p style = "color:#000000;">
-                      <ul>
-                        <li ng-repeat="entries in additional.entries">
-                          <p style = "color:#000000;">
-                            - {{entries.text}}
-                          </p>
-                        </li>
-                      </ul>
-                    </p>
-                </li>
-              </ul>
-            </p>
-          </section>
-  			</article>
-    </div> <!--! end of #container -->
+
+
+
+      </div>
 </div>
 
 
