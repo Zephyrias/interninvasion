@@ -190,10 +190,10 @@ body {
   width: 120px;
   height: 60px;
   background:#cc0033; 
-  font-size:25px; 
+  font-size:22px; 
   border:none; 
   color:#FFFFFF; 
-  font-family:impact;
+  font-family:BentonSans;
   z-index: 3;
 }
 
@@ -414,6 +414,7 @@ section{
 body {
   padding-top: 20px;
   background-color: #000000;
+  font-family: BentonSans;
 }
 
 .black_overlay{
@@ -573,7 +574,7 @@ h3.header{
   left: 175px;
   white-space: nowrap;
   font-size: 45px;
-  font-family: impact;
+  font-family: BentonSans;
   margin-top:20px;
 }
 

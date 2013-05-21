@@ -3,7 +3,7 @@
 </div>
 <div id="container" class="cf">  
   <div id="wrapper" class="wrapper" style = "background-color: white">
-      <h1 style="font-family:impact; font-size: 50px">{{phone.oneLiner}}</h1>
+      <h1 style="font-family:BentonSans; font-size: 50px">{{phone.oneLiner}}</h1>
 
       <div class="topinfo">
         <div class="left1">
@@ -12,9 +12,9 @@
         </div>
         <div class="left2">
             <h2>{{phone.name}}</h2>
-            <h3>level {{phone.age}} {{phone.title}}</h3>
-            <h3>{{phone.school}}</h3>
-            <h3>Office Location: San Francisco, CA</h3> 
+            <h3 style = "color: #000000">level {{phone.age}} {{phone.title}}</h3>
+            <h3 style = "color: #000000">{{phone.school}}</h3>
+            <h3 style = "color: #000000">Office Location: San Francisco, CA</h3> 
             <h2>Connect</h2>
             <a href = "{{phone.linkedIn}}"><img src = "http://yaleherald.com/wp-content/uploads/2013/03/Linkedin_Shiny_Icon.svg_.png" style = "max-height: 15%"></a>
             <h2>Mad Skills</h2><br>
@@ -30,10 +30,10 @@
 
         </div>
       </div> 
-    	<article class="span1">
+    	<article class="span1" style = "position: absolute; top: 600px">
           <section>
           <h1>About {{phone.name}}</h1>
-            <p style = "color:#000000;">
+            <p style = "color:#000000; font-size: 28px">
               <ul>
                 <li ng-repeat="additional in phone.additional">
                   <h2>{{additional.category}}</h2>
