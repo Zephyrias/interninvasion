@@ -11,7 +11,7 @@
         [
             {
                 "string": "Brogramming",
-                "percent": 80
+                "percent": 9000
             },
             {
                "string": "Trying new things",
@@ -25,28 +25,31 @@
         "additional":
         [
             {
-                "category": "skills",
+                "category": "Interests",
                 "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
                 "entries":
                 [
                     {
-                        "text": "C++"
+                        "text": "User Experience"
                     },
                     {
-                        "text": "websites"
-                    }
+                        "text": "Internet Rights"
+                    },
+			{
+			"text": "Bitcoin"
+			}
                 ]
             },
             {
-                "category": "hobbies",
-                "entryImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/320px-Computer-aj_aj_ashton_01.svg.png",
+                "category": "Hobbies",
+                "entryImage": "./photos/fun.png",
                 "entries":
                 [
                     {
-                        "text": "Bro Life"
+                        "text": "Rapid Prototyping"
                     },
                     {
-                        "text": "I love being a bro"
+                        "text": "\"Having Fun\""
                     }
                 ]
             }
