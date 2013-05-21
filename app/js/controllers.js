@@ -14,9 +14,12 @@ function PhoneListCtrl($scope, $http) {
 
 
 function PhoneDetailCtrl($scope, $routeParams, $http) {
-   $http.get('interns/' + $routeParams.phoneId + '.json').success(function(data) {
-   $scope.phone = data;
-  });
+   
+	$http.get('interns/' + $routeParams.phoneId + '.json').success(function(data) {
+		$scope.phone = data;
+	}).error(function(data) {
+		window.location = "/app/index.html";
+	});
 }
 
 //PhoneDetailCtrl.$inject = ['$scope', '$routeParams', '$http'];
