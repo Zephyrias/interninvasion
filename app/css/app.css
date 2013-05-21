@@ -33,12 +33,24 @@ nav ul, ul { list-style:none; }
 
 li {
     list-style:none;
+    display: inline-block;
 }
 
 ul{
     padding:0;
     margin:0;
     white-space:nowrap;
+}
+
+.wrapword{
+  white-space: -moz-pre-wrap !important;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+
 }
 
 
@@ -147,7 +159,7 @@ body {
 }
 
 .large {
-    width:405px;
+    width: 405px;
 }
 
 .search{
@@ -313,6 +325,77 @@ header h1{
   letter-spacing: 0.05em;
   left: 50px;
 }
+
+
+.bg {
+  background-color: #333;
+  padding:10px;
+  border-radius:8px;
+  float:left;
+}
+
+.mainimageshell {
+  background-color:#fff;
+  border-radius:8px;
+  float:left;
+  width: 400px;
+  padding:10px;
+}
+
+.viewwindow {
+  width: 400px;
+  height: 400px;
+  overflow-x: hidden;
+  position:relative;
+}
+
+.fullsizelist{
+  position: absolute;
+  top:0;
+  left:0;
+  transition: left .8s ease;
+  -ms-transition: left .8s ease;
+  -o-transition: left .8s ease;
+  -webkit-transition: left .8s ease;
+  -moz-transition: left .8s ease;
+}
+
+.captionshell{
+  margin:0 0 10px 5px;
+  background-color:#fff;
+  width:400px;
+  height:420px;
+  padding:0 10px;
+  border-radius:8px;
+  float:left;
+}
+
+.thumbnail2{
+  height:80px;
+  padding:4px;
+}
+
+.thumbshell {
+  background-color:#fff;
+  width:400px;
+  padding:10px;
+  border-radius:8px;
+  float:left;
+}
+
+.thumbswrapper {
+  float:left;
+  overflow-x: scroll;
+  width:500px;
+  height:100px;
+  margin:20px auto;
+}
+
+.thumbwrapper {
+  float:left;
+  height:60px;
+}
+
 
 /* NAVIGATION */
 

@@ -9,4 +9,3 @@ angular.module('phonecat', []).
       when('/interns/:phoneId', {templateUrl: 'partials/intern-detail.html', controller: PhoneDetailCtrl}).
       otherwise({redirectTo: '/interns'});
 }]);
-
